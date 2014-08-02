@@ -21,6 +21,10 @@
 		1A3AECDF1971DCD50097F089 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3AECB81971DCD50097F089 /* Cocoa.framework */; };
 		1A3AECE71971DCD50097F089 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A3AECE51971DCD50097F089 /* InfoPlist.strings */; };
 		1A3AECE91971DCD50097F089 /* SpritesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AECE81971DCD50097F089 /* SpritesTests.m */; };
+		1A3AECF31971E7D00097F089 /* pool_table.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1A3AECF21971E7D00097F089 /* pool_table.gif */; };
+		1A3AECF61971EF4A0097F089 /* JBBallNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3AECF51971EF4A0097F089 /* JBBallNode.m */; };
+		1A3AECF8197258C50097F089 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3AECF7197258C50097F089 /* circle.png */; };
+		1A3AECFA19725DFA0097F089 /* stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A3AECF919725DFA0097F089 /* stripe.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,11 @@
 		1A3AECE41971DCD50097F089 /* SpritesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpritesTests-Info.plist"; sourceTree = "<group>"; };
 		1A3AECE61971DCD50097F089 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A3AECE81971DCD50097F089 /* SpritesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpritesTests.m; sourceTree = "<group>"; };
+		1A3AECF21971E7D00097F089 /* pool_table.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = pool_table.gif; sourceTree = "<group>"; };
+		1A3AECF41971EF4A0097F089 /* JBBallNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBBallNode.h; sourceTree = "<group>"; };
+		1A3AECF51971EF4A0097F089 /* JBBallNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBBallNode.m; sourceTree = "<group>"; };
+		1A3AECF7197258C50097F089 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		1A3AECF919725DFA0097F089 /* stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stripe.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +133,14 @@
 		1A3AECC01971DCD50097F089 /* Sprites */ = {
 			isa = PBXGroup;
 			children = (
+				1A3AECF919725DFA0097F089 /* stripe.png */,
+				1A3AECF7197258C50097F089 /* circle.png */,
+				1A3AECF21971E7D00097F089 /* pool_table.gif */,
 				1A3AECCC1971DCD50097F089 /* MainMenu.xib */,
-				1A3AECCE1971DCD50097F089 /* JBMyScene.m */,
+				1A3AECF41971EF4A0097F089 /* JBBallNode.h */,
+				1A3AECF51971EF4A0097F089 /* JBBallNode.m */,
 				1A3AECD01971DCD50097F089 /* JBMyScene.h */,
+				1A3AECCE1971DCD50097F089 /* JBMyScene.m */,
 				1A3AECD11971DCD50097F089 /* JBAppDelegate.m */,
 				1A3AECD31971DCD50097F089 /* JBAppDelegate.h */,
 				1A3AECD41971DCD50097F089 /* Spaceship.png */,
@@ -245,6 +259,9 @@
 				1A3AECD51971DCD50097F089 /* Spaceship.png in Resources */,
 				1A3AECD71971DCD50097F089 /* Images.xcassets in Resources */,
 				1A3AECC51971DCD50097F089 /* InfoPlist.strings in Resources */,
+				1A3AECF31971E7D00097F089 /* pool_table.gif in Resources */,
+				1A3AECFA19725DFA0097F089 /* stripe.png in Resources */,
+				1A3AECF8197258C50097F089 /* circle.png in Resources */,
 				1A3AECCB1971DCD50097F089 /* Credits.rtf in Resources */,
 				1A3AECCD1971DCD50097F089 /* MainMenu.xib in Resources */,
 			);
@@ -265,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3AECF61971EF4A0097F089 /* JBBallNode.m in Sources */,
 				1A3AECCF1971DCD50097F089 /* JBMyScene.m in Sources */,
 				1A3AECC71971DCD50097F089 /* main.m in Sources */,
 				1A3AECD21971DCD50097F089 /* JBAppDelegate.m in Sources */,
@@ -474,6 +492,7 @@
 				1A3AECEE1971DCD50097F089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A3AECEF1971DCD50097F089 /* Build configuration list for PBXNativeTarget "SpritesTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +501,7 @@
 				1A3AECF11971DCD50097F089 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
