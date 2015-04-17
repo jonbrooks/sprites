@@ -54,9 +54,9 @@
         const CGFloat kVerticalBumperSize = 65.0;
         
         CGRect borders = CGRectInset(_table.frame, kVerticalBumperSize, kHorizBumperSize);
-        CGFloat ballRadius = [JBBallNode ballRadius];
-        CGFloat pocketWidth = ballRadius * 4;
-        CGSize pocketSize = CGSizeMake(pocketWidth, pocketWidth);
+//        CGFloat ballRadius = [JBBallNode ballRadius];
+//        CGFloat pocketWidth = ballRadius * 4;
+//        CGSize pocketSize = CGSizeMake(pocketWidth, pocketWidth);
 
         
         //create edges for the balls to bounce off of
